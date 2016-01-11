@@ -45,7 +45,6 @@ h1 {
 h2 {
   font-family: Georgia, sans-serif;
   color: #ffffff;
-  text-align: left;
   letter-spacing: 1px;
   font-size: 11px;
   font-style: italic;
@@ -69,11 +68,9 @@ h3 {
 
 p {
   font-family: Georgia, sans-serif;
-  font-style: italic;
   text-align: center;
   letter-spacing: .3px;
   line-height: 15px;
-  font-size: 11px;
   -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
 }
@@ -82,16 +79,7 @@ a {
   text-decoration: none;
 }
 
-h2 a {
-  color: #ffffff;
-  transition: color .2s ease-in-out;
-  -moz-transition: color .2s ease-in-out;
-  -webkit-transition: color .2s ease-in-out;
-}
 
-h2 a:hover {
-  color: #b5b5b5;
-}
 
 .monogram {
   font-family: 'Coda', cursive;
@@ -99,4 +87,72 @@ h2 a:hover {
   position: relative;
   margin: 40px;
   color: black;
+}
+
+#intro {
+  font-size: 24px;
+  margin: 30px;
+}
+
+.column1 {
+  float: left;
+  margin-top: 50px;
+  margin-left: 60px;
+}
+
+.column2 {
+  float: left;
+  margin-left: 30px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  color: black;
+}
+
+.view {
+  width: 230px;
+  height: 125px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+.view .mask, .view .content {
+  width: 230px;
+  height: 125px;
+  position: absolute;
+  overflow: hidden;
+  text-align: center;
+  top: 0;
+  left: 0;
+}
+.view img {
+  display: block;
+  position: relative;
+}
+.projects {
+  text-align: center;
+}
+
+#about {
+  position: relative;
+  top: 600px;
+}
+
+#skills {
+  position: relative;
+  float: right;
+  top: -400px;
+}
+
+.contact {
+  clear: right;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
 }
