@@ -150,9 +150,9 @@ a {
 }
 
 .contact {
-  clear: right;
   position: relative;
   text-align: center;
-  margin: 0 auto;
   display: block;
+  width: 200px;
+  top: -600px;
 }
