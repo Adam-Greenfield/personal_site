@@ -38,8 +38,6 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 3px;
   font-size: 24px;
-  -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
 }
 
 h2 {
@@ -97,13 +95,14 @@ a {
 .column1 {
   float: left;
   margin-top: 50px;
-  margin-left: 60px;
+  margin-left: 30px;
 }
 
 .column2 {
   float: left;
   margin-left: 30px;
   margin-top: 50px;
+  margin-right: 40px;
   text-align: center;
 }
 
@@ -155,4 +154,8 @@ a {
   display: block;
   width: 200px;
   top: -600px;
+}
+
+#port {
+  
 }
