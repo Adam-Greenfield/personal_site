@@ -28,6 +28,7 @@ body {
 .container {
   width: 750px;
   margin: 0px auto;
+
 }
 
 h1 {
@@ -94,15 +95,15 @@ a {
 
 .column1 {
   float: left;
-  margin-top: 50px;
+  margin-top: 70px;
   margin-left: 30px;
   padding-bottom: 20px;
 }
 
 .column2 {
   float: left;
-  margin-left: 30px;
-  margin-top: 50px;
+  margin-left: 50px;
+  margin-top: 70px;
   margin-right: 40px;
   text-align: center;
   padding-bottom: 20px;
@@ -147,7 +148,7 @@ a {
 #skills {
   position: relative;
   float: right;
-  top: -400px;
+  top: -450px;
 }
 
 .contact {
@@ -155,8 +156,9 @@ a {
   text-align: center;
   display: block;
   width: 200px;
-  top: -600px;
+  top: -450px;
 }
+
 
 #port {
   margin: 40px 0;
@@ -169,4 +171,9 @@ a {
 
 .icon {
   font-size: 80px;
+}
+
+.projects {
+  max-width: 100%;
+  max-height: 100%;
 }
