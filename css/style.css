@@ -65,6 +65,14 @@ h3 {
   text-align: center;
 }
 
+header {
+  height: 150px;
+  margin-top: -100px;
+  position: relative;
+  padding-bottom: 40px;
+  background: white;
+}
+
 p {
   font-family: Georgia, sans-serif;
   text-align: center;
@@ -83,14 +91,15 @@ a {
 .monogram {
   font-family: 'Coda', cursive;
   font-size: 40px;
-  position: relative;
-  margin: 40px;
+  margin-top: 100px;
+  padding-top: 100px;
   color: black;
 }
 
 #intro {
   font-size: 24px;
   margin: 30px;
+  margin-bottom: 45px;
 }
 
 .column1 {
@@ -114,6 +123,13 @@ a {
   color: black;
 }
 
+#work {
+  background: white;
+  width: 100%;
+  height: 550px;
+  padding-top: 100px;
+}
+
 .view {
   width: 230px;
   height: 125px;
@@ -128,7 +144,6 @@ a {
   height: 125px;
   position: absolute;
   overflow: hidden;
-  text-align: center;
   top: 0;
   left: 0;
 }
@@ -136,8 +151,62 @@ a {
   display: block;
   position: relative;
 }
-.projects {
-  text-align: center;
+.view a.info {
+  background: url('../images/glass.png') center no-repeat;
+  display: inline-block;
+  text-decoration: none;
+  margin: 0 auto;
+  padding: 0;
+  text-indent: -9999px;
+  width: 50px;
+  height: 50px;
+}
+
+.fade .mask {
+  opacity: 0;
+  overflow: visible;
+  border: 200px solid rgba(0,0,0,0.5);
+  box-sizing: border-box;
+  transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+}
+
+.fade a.info {
+  position: absolute;
+  left: -110px;
+  top: -160px; /* Center the link */
+  opacity: 0;
+  transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+}
+
+.fade:hover .mask {
+  opacity: 1;
+  border: 200px solid rgba(0,0,0,0.5);
+}
+
+.fade:hover a.info {
+  opacity:1;
+  transition-delay: 0.3s;
+}
+
+.title {
+  margin-top: 140px;
+}
+
+.column1 {
+  float: left;
+  margin-top: 50px;
+  width: 400px;
+  height: 200px;
+}
+
+.column2 {
+  float: left;
+  margin-left: 30px;
+  margin-top: 50px;
 }
 
 #about {
@@ -145,10 +214,11 @@ a {
   top: 600px;
 }
 
-#skills {
-  position: relative;
-  float: right;
-  top: -450px;
+.skills {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  background: #434343;
+  width: 100%;
 }
 
 .contact {
@@ -156,9 +226,11 @@ a {
   text-align: center;
   display: block;
   width: 200px;
-  top: -450px;
 }
 
+#skillsh1 {
+  margin-top: 35px;
+}
 
 #port {
   margin: 40px 0;
@@ -166,11 +238,26 @@ a {
 
 .skill {
   position: relative;
-  margin-top: 20px;
+  margin: 20px 25px;
+  display: inline-block;
 }
 
 .icon {
   font-size: 80px;
+  color: white;
+}
+
+#blurb {
+  padding-bottom: 70px;
+
+}
+
+.iconText {
+  color: white;
+}
+
+#skillsh1 {
+  color: white;
 }
 
 .projects {
