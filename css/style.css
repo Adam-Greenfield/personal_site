@@ -17,6 +17,7 @@ time, mark, audio, video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  font-family: 'Oxygen', sans-serif;
 }
 
 body {
@@ -74,7 +75,6 @@ header {
 }
 
 p {
-  font-family: Georgia, sans-serif;
   text-align: center;
   letter-spacing: .3px;
   line-height: 15px;
@@ -227,6 +227,7 @@ a {
   text-align: center;
   display: block;
   width: 200px;
+  margin-bottom: 40px;
 }
 
 #skillsh1 {
